@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailService", "MailService.WebApi\MailService.csproj", "{1B462046-79AD-4542-960C-BA62FAF38E59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MailService.Test", "MailService.Test", "{989BE532-AF44-4A06-AD18-81EA6DBE0758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailServiceTest", "MailServiceTest\MailServiceTest.csproj", "{1DC2F5B6-2424-47CB-9387-B5E8FF617369}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B462046-79AD-4542-960C-BA62FAF38E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B462046-79AD-4542-960C-BA62FAF38E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B462046-79AD-4542-960C-BA62FAF38E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B462046-79AD-4542-960C-BA62FAF38E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC2F5B6-2424-47CB-9387-B5E8FF617369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC2F5B6-2424-47CB-9387-B5E8FF617369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC2F5B6-2424-47CB-9387-B5E8FF617369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC2F5B6-2424-47CB-9387-B5E8FF617369}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DC2F5B6-2424-47CB-9387-B5E8FF617369} = {989BE532-AF44-4A06-AD18-81EA6DBE0758}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE8222B9-58BE-40A7-AB6A-0402AC94667C}
+	EndGlobalSection
+EndGlobal
